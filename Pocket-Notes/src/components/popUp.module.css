@@ -1,0 +1,100 @@
+/* Pop-up section */
+
+.popUp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #2f2f2faf;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Notes Create Tab */
+
+.createTab {
+  width: 50rem;
+  height: 20rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.tabContainer {
+  width: 100%;
+  flex-grow: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+}
+
+.tabContainer h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.createBtn {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+
+  font-family: "Roboto", sans-serif;
+}
+.Gname h2,
+.ColorSec h2 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+.Gname,
+.ColorSec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Gname input {
+  width: 60%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 1.5rem;
+  outline: 2px solid #cccccc;
+  padding-left: 1rem;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+.Gname input::placeholder {
+  color: #979797;
+  opacity: 1;
+}
+
+.colorOption {
+  width: 60%;
+  display: flex;
+  gap: 1rem;
+}
+.colorPalates {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.createBtn button {
+  color: #ffffff;
+  border: none;
+  background-color: #001f8b;
+  width: 12rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-left: auto;
+}
